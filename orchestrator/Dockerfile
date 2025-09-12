@@ -31,6 +31,7 @@ RUN set -ex; \
         procps-ng \
         vim-minimal \
         bind-utils \
+        sqlite \
         policycoreutils; \
     microdnf -y update \
         curl-minimal \
